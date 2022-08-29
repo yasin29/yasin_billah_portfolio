@@ -104,7 +104,7 @@ h2 {
     transform: scale(0.97);
 }
 
-input {
+.modal>input {
     position: absolute;
     top: -1000px;
 }
@@ -116,7 +116,7 @@ input {
     z-index: -100;
 }
 
-input:checked~.modal__overlay {
+.modal>input:checked~.modal__overlay {
     opacity: 1;
     transform: scale(1);
     z-index: 800;

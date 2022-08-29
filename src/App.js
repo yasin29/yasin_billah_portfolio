@@ -8,6 +8,7 @@ import About from './components/About';
 import Dashboard from './components/Dashboard';
 import Academic from './components/Academic';
 import Play from './components/Game';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/academic" element={<Academic />} />
           <Route path="/play" element={<Play />} />
+          <Route path="/skills" element={<Skills />} />
         </Route>
       </Routes>
     </>

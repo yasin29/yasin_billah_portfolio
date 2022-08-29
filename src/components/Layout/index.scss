@@ -117,7 +117,7 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     .page {
         position: initial;
     }
@@ -158,7 +158,7 @@
     }
 
     .stage-cube-cont {
-        position: initial;
+        position: relative;
         width: 100%;
         height: 0%;
         overflow: visible;

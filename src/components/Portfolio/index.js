@@ -29,7 +29,7 @@ const Portfolio = () => {
                 {
                     portfolio.map((port, id) => {
                         return (
-                            <div className="blog-card">
+                            <div className="blog-card" key={id}>
                                 <div className="meta">
                                     <div className="photo" style={{ backgroundImage: `url(${port.src})` }}></div>
                                     <ul className="details">
@@ -37,8 +37,8 @@ const Portfolio = () => {
                                             <ul>
                                                 <li><button
                                                     className="btn"
-                                                    onClick={() => window.open(port.gitClient)}
-                                                >GitHub</button></li>
+                                                    onClick={() => window.open(port.liveSite)}
+                                                >View</button></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -46,8 +46,12 @@ const Portfolio = () => {
                                 <div className="description">
                                     <h2>{port.label}</h2>
                                     <p>{port.text}</p>
-                                    <p class="read-more">
-                                        <a href={port.gitClient}>GitHub</a>
+                                    <p className="read-more">
+                                        <a style={{ marginRight: '10px' }} href={port.gitClient} target="_blank" rel='noreferrer'>GitHub-Client</a>
+                                        {
+                                            port.gitServer && <a target="_blank" rel='noreferrer' style={{ marginRight: '10px' }} href={port.gitServer}>GitHub-Server</a>
+                                        }
+
                                     </p>
                                 </div>
                             </div>

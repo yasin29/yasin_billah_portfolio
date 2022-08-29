@@ -138,6 +138,7 @@ $color_grey_dark: #ffffff;
 
             .read-more {
                 text-align: right;
+                display: flex;
 
                 a {
                     color: $color_prime;
