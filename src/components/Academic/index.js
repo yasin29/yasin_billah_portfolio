@@ -3,6 +3,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import url from '../../data/research.json';
+import Modal from './Modal/index'
 
 const Academic = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -85,8 +86,7 @@ const Academic = () => {
                                         <h6>{res.topic}</h6>
                                         <h6>Research Title</h6>
                                         <h2>{res.title}</h2>
-
-
+                                        <Modal content={res} key={_id} />
                                     </div>
                                 </div>
                             )
