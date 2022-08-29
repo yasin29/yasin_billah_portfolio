@@ -1,0 +1,70 @@
+div#box {
+    background-color: rgb(2, 6, 37);
+    width: 50%;
+    box-shadow: 0px 1px 3px #2f2f2f;
+}
+
+h2#heading,
+p#time,
+p#date {
+    padding: 20px;
+    color: #ebe40e;
+}
+
+h2#heading {
+    padding: 30px 20px 20px 20px;
+    font-size: 1em;
+    background-color: #2ecc71;
+    color: #ebe40e;
+    letter-spacing: 0.04em;
+    font-weight: 400;
+}
+
+p#time {
+    padding: 30px 20px 0px 20px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+p#date {
+    padding: 20px 20px 30px 20px;
+    font-size: 0.9em;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#clock {
+    font-family: 'Share Tech Mono', monospace;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(2, 6, 37);
+    width: 50%;
+    height: auto;
+    box-shadow: 0px 1px 3px #2f2f2f;
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+
+    .time {
+        letter-spacing: 0.05em;
+        font-size: 30px;
+        padding: 5px 0;
+    }
+
+    .date {
+        letter-spacing: 0.1em;
+        font-size: 24px;
+    }
+
+    .text {
+        letter-spacing: 0.1em;
+        font-size: 12px;
+        padding: 20px 0 0;
+    }
+}

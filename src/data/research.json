@@ -1,0 +1,20 @@
+[
+    {
+        "ins": "Bangladesh University of Professionals",
+        "_id": 1,
+        "type": "UNDERGRAD THESIS",
+        "year": "2020-2021",
+        "topic": "MACHINE LEARNING",
+        "title": "An approach to detect the aspect-based sentiment analysis (ABSA) of cricket comments and restaurant reviews in Bangla Language using BERT",
+        "content": "Aspect-Based Sentiment Analysis (ABSA) has become an interesting topic among researchers that focuses on automatic classification of sentiments considering the aspect of the textual data. Without properly defining the aspect, oftentimes a sentence carries multiple sentiments within it. In ABSA, we require both the sentence and a certain aspect to classify its sentiment. Several researches have been conducted to classify aspects and sentiments for different languages and achieved a certain bench- mark. Despite being the worlds seventh most spoken language, very few works have been done related to ABSA tasks in Bangla. Even the performance of the existing works are not satisfactory and yet to be improved. In this thesis, our primaryobjective is to improve solving ABSA tasks in Bangla language. Even though various types of models and frameworks already exist to solve ABSA tasks, almost all of them have their own limitations. Bidirectional Encoder Representations fromTransformers (BERT), a new breakthrough in the field of Natural Language Processing (NLP) has made some promising impacts on different types of NLP tasks. We proposed the BERT model along with some fine tuning to solve ABSA tasks in Bangla language. We evaluated the proposed model on two different datasets: cricket comment dataset and our self constructed restaurant review dataset. For both datasets, BERT provides satisfactory results but for the restaurant review dataset it performs better than all the existing state of the arts."
+    },
+    {
+        "ins": "Bangladesh University of Professionals",
+        "_id": 2,
+        "type": "PROJECT PAPER",
+        "year": "2020",
+        "topic": "CYBER SECURITY",
+        "title": "A Simple and Unique Encryption Algorithm for EHRs Data Security",
+        "content": "With the development of technology, access to information or data has become easier more than ever. In the health care area, availability of patient’s information while needed upgrades standard of treatment. To increase this availability, health care sector is adopting Electronic Health Records (EHR) which is subjected to privacy breaches. Data stored in its original form in the database can hamper a patient’s privacy and security. For this, we proposed a unique way of encoding using ASCII value of each character, number or symbol and a seed value so that patient’s data that reveals their identity can be stored in the database in such a way that no unauthorized person can use this data even after obtaining them. This process can return  the original data from its encrypted version when an authorized person desires to see them and can be used in research areas for advancement of medical field without breaching privacy."
+    }
+]

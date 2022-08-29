@@ -1,0 +1,90 @@
+.quote-container {
+    background: rgba(8, 253, 216, 0.1);
+    float: right;
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+    text-align: center
+}
+
+.flat-quote-button {
+    color: #c56d76;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+
+    border: 1px solid #c56d76;
+    margin-top: 25px;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: normal !important;
+    word-wrap: break-word;
+
+    &:hover {
+        background: #c56d76;
+        color: #333;
+    }
+}
+
+.play-games {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+q {
+    color: #ddddd3;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+
+    &:before {
+        content: '{';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -5px;
+        left: -5px;
+        opacity: 0.6;
+    }
+
+    &:after {
+        content: '};';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 20px;
+        animation: fadeIn 1s 1.7s backwards;
+        opacity: 0.6;
+    }
+
+    img {
+        margin-left: 20px;
+        opacity: 0;
+        width: 32px;
+        height: auto;
+        animation: rotateIn 1s linear both;
+        animation-delay: 1.4s;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .quote-container {
+        float: none;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+
+    }
+}

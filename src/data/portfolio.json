@@ -1,0 +1,39 @@
+[
+    {
+        "src": "https://i.ibb.co/WHDTmZ9/smartmockups-kwmsm795.jpg",
+        "text": "An Online-Booking-based Electric vehicles ordering website using react router,Material UI, mongoDB",
+        "label": "ELECTRO BOOM",
+        "gitClient": "https://github.com/yasin29/ev-car-website-client-side.git",
+        "gitServer": "https://github.com/yasin29/ev-car-website-server-side.git",
+        "liveSite": "https://electro-boom.web.app/"
+    },
+    {
+        "src": "https://i.ibb.co/SJZy9x0/smartmockups-kwn3yjhj.jpg",
+        "text": " An Online-Booking-based Resort booking website using react router, mongodb and firebase",
+        "label": "Markas Beel Resort",
+        "gitClient": "https://github.com/yasin29/tourism-website-client-side.git",
+        "gitServer": "https://github.com/yasin29/tourism-website-server-side.git",
+        "liveSite": "https://markas-resort.web.app/"
+    },
+    {
+        "src": "https://i.ibb.co/h20xMgr/smartmockups-kwn48tv4.jpg",
+        "text": "An Online-based Gym Instructions and Programs website using react router and firebase",
+        "label": "Xclusive Gym",
+        "gitClient": "https://github.com/yasin29/An-Online-based-Gym-Instructions-and-Programs-website.git",
+        "liveSite": "https://gym-website-bd358.web.app/"
+    },
+    {
+        "src": "https://i.ibb.co/N1d61hm/smartmockups-kwn4a076.jpg",
+        "text": "InfoTech Career-path Online Learning Platform using react router",
+        "label": "InfoTech Career",
+        "gitClient": "https://github.com/yasin29/Online-Learning-Platform-using-react-router.git",
+        "liveSite": "https://info-tech-career-path-yasin29.netlify.app/home"
+    },
+    {
+        "src": "https://i.ibb.co/rbQnKCC/smartmockups-kwn4aw4p.jpg",
+        "text": "InfoTech Club Full Stack Web Development Learning path",
+        "label": "InfoTech Club",
+        "gitClient": "https://github.com/yasin29/Full-Stack-Web-Development-Learning-path-website-using-React.git",
+        "liveSite": "https://yasin29-full-stack-learning-path.netlify.app/"
+    }
+]
