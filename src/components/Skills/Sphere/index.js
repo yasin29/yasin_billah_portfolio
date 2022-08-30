@@ -1,18 +1,19 @@
 // import randomColor from 'randomcolor';
-import React from 'react';
+// import React, { useEffect, useState } from 'react';
 import TagCloud from 'TagCloud';
 import './index.scss'
 
 
 const Sphere = () => {
+
     const myTags = ["Frontend", "Full-Stack", "HTML5", "CSS3", "JavaScript", "Python", "React", "Machine Learning", "TensorFlow", "Latex", "MySql", "MongoDB", "NODE JS", "Django", "R", "Data Science", "Digital Marketing"];
 
 
     TagCloud('.content', myTags, {
 
         // radius in px
-        radius: 350,
 
+        radius: 350,
         // animation speed
         // slow, normal, fast
         maxSpeed: 'fast',
