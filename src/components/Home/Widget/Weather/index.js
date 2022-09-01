@@ -2,9 +2,10 @@ import React from "react";
 import apiKeys from "./apikeys";
 import ReactAnimatedWeather from "react-animated-weather";
 import Forcast from "./forcast";
+import './index.scss'
 const defaults = {
     color: "yellow",
-    size: 50,
+    size: 30,
     animate: true,
 };
 class Weather extends React.Component {
@@ -115,7 +116,17 @@ class Weather extends React.Component {
                     <div className="city">
                         <div className="title">
                             <h2 style={{ color: "white" }}>{this.state.city}</h2>
-                            <h3 style={{ color: "white" }}>{this.state.country}</h3>
+                            <h3 style={{ color: "white" }}>{this.state.temperatureC}°<span>C</span></h3>
+                        </div>
+
+                        <div style={{ color: "white" }} className="date-time">
+                            <div>
+                                <h3>
+                                    {this.state.country}
+                                </h3>
+                                {/* <span className="slash">/</span>
+                {this.state.temperatureF} &deg;F */}
+                            </div>
                         </div>
                         <div className="mb-icon">
                             {" "}
@@ -125,16 +136,6 @@ class Weather extends React.Component {
                                 size={defaults.size}
                                 animate={defaults.animate}
                             />
-                            <p>{this.state.main}</p>
-                        </div>
-                        <div style={{ color: "white" }} className="date-time">
-                            <div className="temperature">
-                                <p>
-                                    {this.state.temperatureC}°<span>C</span>
-                                </p>
-                                {/* <span className="slash">/</span>
-                {this.state.temperatureF} &deg;F */}
-                            </div>
                         </div>
                     </div>
                     <Forcast icon={this.state.icon} weather={this.state.main} />

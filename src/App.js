@@ -9,6 +9,9 @@ import Dashboard from './components/Dashboard';
 import Academic from './components/Academic';
 import Play from './components/Game';
 import Skills from './components/Skills';
+import Video from './components/Videography';
+import Photo from './components/Photography';
+import Blog from './components/Blogs';
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
           <Route path="/academic" element={<Academic />} />
           <Route path="/play" element={<Play />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/video" element={<Video />} />
+          <Route path="/photo" element={<Photo />} />
+          <Route path="/blog" element={<Blog />} />
         </Route>
       </Routes>
     </>

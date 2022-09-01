@@ -10,10 +10,10 @@
 
     h1 {
         color: #fff;
-        font-size: 56px;
+        font-size: 40px;
         line-height: 53px;
         margin: 0;
-        font-family: 'Coolvetica';
+        font-family: 'BioRhyme';
         font-weight: 400;
 
         &:before {
@@ -82,7 +82,14 @@
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
+    .home-page {
+        .text-zone {
+            h1 {
+                font-size: 30px;
+            }
+        }
+    }
 
     .tags,
     .home-page h1:before,

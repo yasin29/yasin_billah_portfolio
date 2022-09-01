@@ -14,11 +14,7 @@ const Home = () => {
 
     const nameArray = ['A', 'S', 'I', 'N', ' ', 'B', 'I', 'L', 'L', 'A', 'H',]
     const jobArray = [
-        'w',
-        'e',
-        'b',
-        ' ',
-        'd',
+        'D',
         'e',
         'v',
         'e',
@@ -27,13 +23,25 @@ const Home = () => {
         'p',
         'e',
         'r',
-        '.',
+        ' ',
+        ' & ',
+        ' ',
+        'R',
+        'e',
+        's',
+        'e',
+        'a',
+        'r',
+        'c',
+        'h',
+        'e',
+        'r'
     ]
 
     useEffect(() => {
         setTimeout(() => {
             return setLetterClass('text-animate-hover')
-        }, 4000)
+        }, 5000)
     }, [])
     return (
         <>
@@ -41,7 +49,9 @@ const Home = () => {
                 <div className="text-zone">
                     <h1>
                         <span className={letterClass}>H</span>
-                        <span className={`${letterClass} _12`}>i,</span>
+                        <span className={`${letterClass} _12`}>o</span>
+                        <span className={letterClass}>l</span>
+                        <span className={`${letterClass} _12`}>a</span>
                         <br />
                         <span className={`${letterClass} _13`}>I</span>
                         <span className={`${letterClass} _14`}>'m</span>
@@ -61,7 +71,7 @@ const Home = () => {
                             idx={22}
                         />
                     </h1>
-                    <h2>Front End Developer / Data Science Enthusiast / Digital Marketer</h2>
+                    <h2>Front End Developer / Data Science Enthusiast / Freelancer</h2>
                     <Link to="/contact" className="flat-button">
                         CONTACT ME
                     </Link>

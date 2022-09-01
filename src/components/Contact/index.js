@@ -43,8 +43,8 @@ const Contact = () => {
                             idx={15}
                         />
                     </h1>
-                    <p>
-                        I am interested in graduate assistantship and freelance opportunities - especially on ambitious
+                    <p style={{ fontFamily: 'Source Sans Pro', fontSize: '15px' }}>
+                        I am interested in graduate assistantship as researcher and freelance opportunities - especially on ambitious
                         or large projects. However, if you have any other requests or
                         questions, don't hesitate to contact me using below form either.
                     </p>

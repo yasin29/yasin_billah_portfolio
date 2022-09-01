@@ -1,0 +1,14 @@
+.c-share {
+
+    /* [1] */
+
+
+    display: flex;
+    flex: column;
+    align-items: center;
+    justify-content: center;
+    /* [2] */
+
+    margin: 10px;
+    color: white;
+}

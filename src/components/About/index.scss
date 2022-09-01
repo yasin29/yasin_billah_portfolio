@@ -9,6 +9,10 @@
     overflow: hidden;
 }
 
+.paragraphFont {
+    font-family: 'Source Sans pro';
+}
+
 .cubespinner {
     animation-name: spincube;
     animation-timing-function: ease-in-out;
@@ -88,5 +92,14 @@
 
     83% {
         transform: rotateX(90deg);
+    }
+}
+
+@media screen and (max-width:800px) {
+    .stage-cube-cont {
+        position: relative;
+        width: 100%;
+        height: 0%;
+        overflow: visible;
     }
 }

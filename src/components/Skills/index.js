@@ -28,8 +28,8 @@ const Skills = () => {
                             idx={15}
                         />
                     </h1>
-                    <p>
-                        Expert in front-end development and Machine Learning technologies such as tech {
+                    <p style={{ fontFamily: 'Source Sans Pro', fontSize: '15px' }}>
+                        Expert in front-end development and Machine Learning technologies such as {
                             myTags.map((tag, id) => {
                                 return (
                                     <b key={id} style={{ color: "#FFD700" }}>{tag}, </b>
@@ -37,8 +37,8 @@ const Skills = () => {
                             })
                         } etc.
                     </p>
-                    <p>
-                        I’m not a designer but I have a good sense of aesthetics, and
+                    <p style={{ fontFamily: 'Source Sans Pro', fontSize: '15px' }}>
+                        As a researcher, I work with various tools and learn new technologies quickly to adapt with challenges. I have a good sense of aesthetics, and
                         experience in responsive, mobile-first web design. I put special
                         effort into optimizing my code and providing the best user
                         experience. I would love to give you any kind of support also after
@@ -47,7 +47,7 @@ const Skills = () => {
                     </p>
                     <div className="contact-form">
                         <Link to="/contact" className="flat-button">
-                            CONTACT ME
+                            Let's Talk
                         </Link>
                     </div>
                 </div>

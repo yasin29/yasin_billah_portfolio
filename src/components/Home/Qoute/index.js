@@ -29,6 +29,17 @@ const QuoteGenerator = () => {
                             PLAY 2048
                         </Link>
                     </div>
+                    <div className='hobbies'>
+                        <Link to="/video" className="flat-hobby-button">
+                            Videography
+                        </Link>
+                        <Link to="/photo" className="flat-hobby-button">
+                            Photography
+                        </Link>
+                        <Link to="/blog" className="flat-hobby-button">
+                            Blogs
+                        </Link>
+                    </div>
                 </span>
             </blockquote> : <Spinner animation="grow" variant="info" />}
         </div>

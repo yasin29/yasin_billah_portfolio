@@ -32,16 +32,13 @@ const About = () => {
                             idx={15}
                         />
                     </h1>
-                    <p>
-                        I'm a very ambitious front-end developer looking for a role in an
-                        established IT company with the opportunity to work with the latest
-                        technologies on challenging and diverse projects.
+                    <p style={{ fontFamily: 'Source Sans Pro', fontSize: '15px' }}>
+                        I'm an IT graduate who is looking forward to building a career with software development and research. I'm an expert in Full-Stack web development (MERN Stack). I'm also a Machine Learning Enthusiast and I have several research based on machine learning and deep learning.
                     </p>
-                    <p align="LEFT">
-                        I'm quiet confident, naturally curious, and perpetually working on
-                        improving my chops one design problem at a time.
+                    <p align="LEFT" style={{ fontFamily: 'Source Sans Pro', fontSize: '15px' }}>
+                        I'm quiet confident with my skills and knowledge, naturally curious, and perpetually working on improving my skills and gaining a new set of knowledge consistently. My patience, calmness and hard working tendencies are my biggest assets.
                     </p>
-                    <p>
+                    <p style={{ fontFamily: 'Source Sans Pro', fontSize: '15px' }}>
                         If I need to define myself in one sentence that would be tech enthusiast, Data Science Enthusiast, a football fanatic,
                         photography enthusiast, and traveler!
                     </p>
