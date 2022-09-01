@@ -24,7 +24,7 @@ const QuoteGenerator = () => {
                         <cite style={{ color: 'silver' }} title="Source Title">{qt.author}</cite></footer>
                     <Resume />
                     <div className='play-games'>
-                        <h4 style={{ color: "#c56d76" }}>Or if you're feeling bored</h4>
+                        <h4 style={{ color: "#c56d76" }}>Explore my world</h4>
                         <Link to="/play" className="flat-quote-button">
                             PLAY 2048
                         </Link>

@@ -12,6 +12,8 @@ import Skills from './components/Skills';
 import Video from './components/Videography';
 import Photo from './components/Photography';
 import Blog from './components/Blogs';
+import Article from './components/Blogs/Article';
+import Services from './components/Skills/Services';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
           <Route path="/video" element={<Video />} />
           <Route path="/photo" element={<Photo />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/blog/:id" element={<Article />} />
         </Route>
       </Routes>
     </>

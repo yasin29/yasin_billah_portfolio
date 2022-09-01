@@ -49,6 +49,9 @@ const Skills = () => {
                         <Link to="/contact" className="flat-button">
                             Let's Talk
                         </Link>
+                        <Link to="/services" className="flat-button">
+                            Services
+                        </Link>
                     </div>
                 </div>
                 <div className="map-skills-wrap">

@@ -108,6 +108,12 @@
             }
         }
 
+        a.services-link {
+            &:after {
+                content: 'SERVICES';
+            }
+        }
+
         a.active {
             svg {
                 color: #ffd700;

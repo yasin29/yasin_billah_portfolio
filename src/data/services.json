@@ -1,0 +1,42 @@
+[
+    {
+        "name": "IELTS",
+        "price": "49",
+        "o1": "1 Graded Speaking Assessment",
+        "o2": "1 Graded Writing Assessment",
+        "o3": "Detailed Study Schedules",
+        "o4": "Comprehensive coverage of IELTS Speaking, Listening, Reading, and Writing",
+        "o5": "Target Band Score Guarantee",
+        "id": 1
+    },
+    {
+        "name": "Full-stack website",
+        "price": "75",
+        "o1": "10 Website Pages",
+        "o2": "Free SSL Certificate",
+        "o3": "Lite E-commerce Bundle",
+        "o4": "Responsive design",
+        "o5": "Content Upload",
+        "id": 2
+    },
+    {
+        "name": "Digital Marketing",
+        "price": "100",
+        "o1": "2 Platforms",
+        "o2": "3 Posts/Week",
+        "o3": "Data-driven social strategy",
+        "o4": "Monthly Reporting",
+        "o5": "Social Ads Mgt (Fees Extra)",
+        "id": 3
+    },
+    {
+        "name": "GRE",
+        "price": "99",
+        "o1": "1 month of access",
+        "o2": "+5 total score guarantee",
+        "o3": "Comprehensive coverage of Math, Verbal and AWA",
+        "o4": "Score predictor",
+        "o5": "Study schedules",
+        "id": 4
+    }
+]

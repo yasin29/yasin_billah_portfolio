@@ -30,7 +30,7 @@ const Portfolio = () => {
                     portfolio.map((port, id) => {
                         return (
                             <div className="blog-card" key={id}>
-                                <div className="meta">
+                                <div style={{ cursor: 'pointer' }} className="meta" onClick={() => window.open(port.liveSite)}>
                                     <div className="photo" style={{ backgroundImage: `url(${port.src})` }}></div>
                                     <ul className="details">
                                         <li className="tags">
@@ -79,5 +79,6 @@ const Portfolio = () => {
         </>
     );
 }
+
 
 export default Portfolio;
